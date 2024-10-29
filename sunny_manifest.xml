@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <!-- Remotes -->
+        <remote name="github"
+                fetch="https://github.com" />
+        <remote name="gitlab"
+                fetch="https://gitlab.com" />
+
+        <!-- Device -->
+        <project path="device/xiaomi/sunny" name="musivian/device_xiaomi_sunny" remote="github" revision="fourteen" />
+        <project path="device/xiaomi/sunny-kernel" name="musivian/device_xiaomi_sunny-kernel" remote="github" revision="fourteen" />        
+		    <project path="device/qcom/qssi" name="musivian/android_device_qcom_qssi" remote="github" revision="uvite" />
+        <project path="device/qcom/common" name="musivian/device_qcom_common" remote="github" revision="fourteen" />
+        
+        <!-- Kernel -->
+        <!-- <project path="kernel/xiaomi/sunny" name="PixelOS-Devices/kernel_xiaomi_sunny" remote="github" revision="fourteen" /> -->
+        
+        <!-- Vendor -->
+        <project path="vendor/xiaomi/sunny" name="PixelOS-Devices/vendor_xiaomi_sunny" remote="github" revision="fourteen" />
+		    <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fourteen" />        
+		    <project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom_opensource_core-utils" remote="github" revision="fourteen" />
+        
+        <!-- <project path="vendor/bcr" name="Chaitanyakm/vendor_bcr" remote="github" revision="main" />
+        <project path="vendor/xiaomi/mojito-leicacamera" name="dpenra/android_vendor_xiaomi_mojito-leicacamera" remote="gitlab" revision="main" />
+        <project path="vendor/xiaomi/miui-apps" name="dpenra-apps/vendor/xiaomi/miui-apps" remote="github" revision="main" />
+        <project path="vendor" name="dpenra-apps/lineage_priv" remote="github" revision="main" /> -->
+		
+		    <!-- Hardware -->
+        <project path="hardware/xiaomi" name="musivian/hardware_xiaomi" remote="github" revision="main" />
+                
+        <!-- Prebuilts -->
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" revision="14.0.0" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="github" revision="12.0.0" />      
+
+        <!-- Packages -->
+        <project path="packages/apps/DisplayFeatures" name="cyberknight777/android_packages_apps_DisplayFeatures" remote="github" revision="master" />
+        <project path="packages/apps/Kprofiles" name="dpenra-sunny/android_packages_apps_Kprofiles" remote="github" revision="main" />
+        <!-- <project path="packages/apps/ViPER4AndroidFX" name="xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX" remote="github" revision="fourteen" /> -->
+        
+        <!-- Removing-project -->
+        <remove-project name="hardware_qcom-caf_sm8150_media" />
+        <project path="hardware/qcom-caf/sm8150/media" name="yaap/hardware_qcom-caf_sm8150_media" remote="github" revision="fourteen" />
+        <remove-project name="vendor_lineage" />
+        <project path="vendor/lineage" name="musivian/android_vendor_lineage" remote="github" revision="fourteen" clone-depth="1" />
+</manifest>
