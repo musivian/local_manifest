@@ -3,7 +3,7 @@
         <!-- Remotes -->
         <remote name="ghb"
                 fetch="https://github.com" />
-        <remote name="gitlab"
+        <remote name="gtb"
                 fetch="https://gitlab.com" />
 
         <!-- Device -->
@@ -17,11 +17,11 @@
         
         <!-- Vendor -->
         <project path="vendor/xiaomi/sunny" name="PixelOS-Devices/vendor_xiaomi_sunny" remote="ghb" revision="fourteen" />
-	<project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fourteen" />        
+	<project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gtb" revision="fourteen" />        
 	<project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom_opensource_core-utils" remote="ghb" revision="fourteen" />
         
         <!-- <project path="vendor/bcr" name="Chaitanyakm/vendor_bcr" remote="ghb" revision="main" />
-        <project path="vendor/xiaomi/mojito-leicacamera" name="dpenra/android_vendor_xiaomi_mojito-leicacamera" remote="gitlab" revision="main" />
+        <project path="vendor/xiaomi/mojito-leicacamera" name="dpenra/android_vendor_xiaomi_mojito-leicacamera" remote="gtb" revision="main" />
         <project path="vendor/xiaomi/miui-apps" name="dpenra-apps/vendor/xiaomi/miui-apps" remote="ghb" revision="main" />
         <project path="vendor" name="dpenra-apps/lineage_priv" remote="ghb" revision="main" /> -->
 		
