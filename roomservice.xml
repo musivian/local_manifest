@@ -25,7 +25,7 @@
         <project path="vendor/xiaomi/miui-apps" name="dpenra-apps/vendor/xiaomi/miui-apps" remote="ghb" revision="main" />
         <project path="vendor" name="dpenra-apps/lineage_priv" remote="ghb" revision="main" /> -->
 		
-		    <!-- Hardware -->
+	<!-- Hardware -->
         <project path="hardware/xiaomi" name="musivian/hardware_xiaomi" remote="ghb" revision="main" />
                 
         <!-- Prebuilts -->
