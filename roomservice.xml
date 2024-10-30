@@ -9,8 +9,8 @@
         <!-- Device -->
         <project path="device/xiaomi/sunny" name="musivian/device_xiaomi_sunny" remote="ghb" revision="fourteen" />
         <project path="device/xiaomi/sunny-kernel" name="musivian/device_xiaomi_sunny-kernel" remote="ghb" revision="fourteen" />        
-	<project path="device/qcom/qssi" name="musivian/android_device_qcom_qssi" remote="ghb" revision="uvite" />
-        <project path="device/qcom/common" name="musivian/device_qcom_common" remote="ghb" revision="fourteen" />
+	<project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="ghb" revision="uvite" />
+        <project path="device/qcom/common" name="yaap/device_qcom_common" remote="ghb" revision="fourteen" />
         
         <!-- Kernel -->
         <!-- <project path="kernel/xiaomi/sunny" name="PixelOS-Devices/kernel_xiaomi_sunny" remote="ghb" revision="fourteen" /> -->
@@ -34,7 +34,7 @@
 
         <!-- Packages -->
         <project path="packages/apps/DisplayFeatures" name="cyberknight777/android_packages_apps_DisplayFeatures" remote="ghb" revision="master" />
-        <project path="packages/apps/Kprofiles" name="dpenra-sunny/android_packages_apps_Kprofiles" remote="ghb" revision="main" />
+        <project path="packages/apps/Kprofiles" name="KProfiles/android_packages_apps_Kprofiles" remote="ghb" revision="main" />
         <!-- <project path="packages/apps/ViPER4AndroidFX" name="xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX" remote="ghb" revision="fourteen" /> -->
         
         <!-- Removing-project -->
