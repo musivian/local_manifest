@@ -38,8 +38,6 @@
         <!-- <project path="packages/apps/ViPER4AndroidFX" name="xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX" remote="ghb" revision="fourteen" /> -->
         
         <!-- Removing-project -->
-        <remove-project name="hardware_qcom-caf_sm8150_media" />
-        <project path="hardware/qcom-caf/sm8150/media" name="yaap/hardware_qcom-caf_sm8150_media" remote="ghb" revision="fourteen" />
         <remove-project name="vendor_lineage" />
         <project path="vendor/lineage" name="musivian/android_vendor_lineage" remote="ghb" revision="fourteen" clone-depth="1" />
 </manifest>
