@@ -9,7 +9,7 @@
         <!-- Device -->
         <project path="device/xiaomi/sunny" name="musivian/device_xiaomi_sunny" remote="github" revision="fourteen" />
         <project path="device/xiaomi/sunny-kernel" name="musivian/device_xiaomi_sunny-kernel" remote="github" revision="fourteen" />        
-		    <project path="device/qcom/qssi" name="musivian/android_device_qcom_qssi" remote="github" revision="uvite" />
+	<project path="device/qcom/qssi" name="musivian/android_device_qcom_qssi" remote="github" revision="uvite" />
         <project path="device/qcom/common" name="musivian/device_qcom_common" remote="github" revision="fourteen" />
         
         <!-- Kernel -->
@@ -17,8 +17,8 @@
         
         <!-- Vendor -->
         <project path="vendor/xiaomi/sunny" name="PixelOS-Devices/vendor_xiaomi_sunny" remote="github" revision="fourteen" />
-		    <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fourteen" />        
-		    <project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom_opensource_core-utils" remote="github" revision="fourteen" />
+	<project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fourteen" />        
+	<project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom_opensource_core-utils" remote="github" revision="fourteen" />
         
         <!-- <project path="vendor/bcr" name="Chaitanyakm/vendor_bcr" remote="github" revision="main" />
         <project path="vendor/xiaomi/mojito-leicacamera" name="dpenra/android_vendor_xiaomi_mojito-leicacamera" remote="gitlab" revision="main" />
