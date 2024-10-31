@@ -26,7 +26,7 @@
         <project path="vendor" name="dpenra-apps/lineage_priv" remote="ghb" revision="main" /> -->
 		
 	<!-- Hardware -->
-        <project path="hardware/xiaomi" name="musivian/hardware_xiaomi" remote="ghb" revision="main" />
+        <project path="hardware/xiaomi" name="musivian/hardware_xiaomi" remote="ghb" revision="fourteen" />
                 
         <!-- Prebuilts -->
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="ghb" revision="14.0.0" />
@@ -38,6 +38,6 @@
         <!-- <project path="packages/apps/ViPER4AndroidFX" name="xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX" remote="ghb" revision="fourteen" /> -->
         
         <!-- Removing-project -->
-        <!-- <remove-project name="vendor_lineage" />
-        <project path="vendor/lineage" name="musivian/android_vendor_lineage" remote="ghb" revision="fourteen" clone-depth="1" /> -->
+        <!-- <remove-project name="vendor_lineage" /> -->
+        <project path="vendor/lineage" name="musivian/android_vendor_lineage" remote="ghb" revision="fourteen" clone-depth="1" />
 </manifest>
